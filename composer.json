@@ -1,0 +1,26 @@
+{
+    "name": "genome/genome",
+    "description": "Genome payment module",
+    "authors": [
+        {
+            "name": "genome",
+            "email": "support@genome.eu"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "genome-eu/hpp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Genome\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "author": "Genome",
+    "license": "BSD2"
+}
